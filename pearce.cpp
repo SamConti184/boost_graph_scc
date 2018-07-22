@@ -1,5 +1,5 @@
 /*
-Implementation of the Nuutila algorithm for finding strongly connected components
+Implementation of the Pearce algorithm for finding strongly connected components
 in a directed graph, as described in the original paper
 */
 
