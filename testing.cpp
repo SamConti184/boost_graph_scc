@@ -25,7 +25,7 @@ void test(int chosen_test_size, int algorithm) {
     time += randGraphsTest(algorithm, i);
   }
   average_time = time / NUMBER_OF_TESTING_GRAPHS;
-  std::cout << "The average execution time is: " << (float(average_time)/CLOCKS_PER_SEC) << "ms.\n";
+  std::cout << "The average execution time is: " << (float(average_time)/(CLOCKS_PER_SEC/1000)) << "ms.\n";
 }
 
 int randGraphsTest(int algorithm, int num){
